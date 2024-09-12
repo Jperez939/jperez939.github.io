@@ -1,0 +1,45 @@
+html{
+    background-color: indianred;
+}
+
+h1{
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+
+.subheading{
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+
+.bakinginfo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    list-style-type: square;
+    color: lavender;
+    line-height: 1.4;
+}
+
+a{
+    color:gold
+}
+
+#backtohome{
+    color: purple;
+    font-weight: bold;
+}
+
+hr{
+    background-color: purple;
+    border: none;
+    height: 4px;
+}
+
+.mainimage{
+    width: 1425px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
