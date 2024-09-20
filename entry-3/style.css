@@ -39,9 +39,8 @@ h1{
 }
 
 .line-block{
-    width:1000000px;
+    width:1100px;
     height:5px;
     background-color:purple;
     display:inline-block;
-    margin-left: -1000px;
 }
