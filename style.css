@@ -1,28 +1,44 @@
 html{
     background-color: rgb(250, 235, 215);
-    text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body, html {
     height: 100%;
     margin: 0;
+    color: rgb(205, 115, 63);
 }
 
 h1{
     font-variant: small-caps;
     color: indianred;
-    font-size: 400%;
+    font-size: 600%;
+    text-align: center;
+    transition:2s;
+}
+
+h1:hover{
+    font-size: 900%;
+    cursor:pointer;
+    color: antiquewhite;
 }
 
 .entries{
     font-variant: small-caps;
-    font-size: 40px;
-    line-height: 15;
+    font-size: 18px;
+    line-height: 1.7;
+    color: rgb(205, 115, 63);
+    transition:2s;
+}
+.entries:hover{
     color: indianred;
+    text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.129);
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 20px;
 }
 
 .hero-image {
-    background-image: linear-gradient(rgba(55, 36, 13, 0.5), rgba(55, 36, 13, 0.5)), url(MAIN-IMAGE.jpg);
+    background-image: linear-gradient(rgba(55, 35, 10, 0.649), rgba(56, 36, 10, 0.69)), url(MAIN-IMAGE.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -35,4 +51,36 @@ h1{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+ul.mainsteps {
+    float: left;
+    width: 60%;
+    height: 70%;
+    transition: 2s;
+}
+ul.mainsteps:hover{
+    color: indianred;
+    text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.123);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+ul.mainsteps li.step {
+    list-style-type: none;
+    font-size: 27px;
+    padding-top: 20px;
+    padding-right: 115px;
+    margin-left: -10%;
+}
+
+ul.ingredients{
+    float:left;
+}
+ul.ingredients li.steps{
+    list-style-type: none;
+    padding-top: 10px;
+    padding-right: 400px;
+    margin-left: 31%;
+    width: 40%;
 }
