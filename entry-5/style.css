@@ -1,0 +1,232 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: rgb(195, 63, 63);
+    background: url(Cake.jpg);
+    background-size: cover;
+    margin: 40px;
+}
+
+main h1 {
+    text-transform: uppercase;
+    float: right;
+    width: 60%;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.recipies-info p {
+    display: inline-block;
+    padding: 15px;
+}
+
+.recipies-info span {
+    color: #d78e11;
+    font-weight: 600;
+    transition: 2s;
+}
+.recipies-info span:hover {
+    letter-spacing: 1px;
+    text-shadow: -1px 2px 2px rgb(12, 12, 12);
+    cursor: pointer;
+}
+
+button.btn-primary {
+    border: 2px solid rgb(195, 63, 63);
+    border-radius: 25px;
+    padding: 10px 15px;
+    background: none;
+    color: rgb(195, 63, 63);
+    width: 15%;
+    margin-left: 14px;
+    transition: 2s;
+}
+button.btn-primary:hover{
+    background-color: #d78e11;
+    border-color: #d78e11;
+    cursor: pointer;
+    letter-spacing: 1px;
+    cursor: pointer;
+    color: antiquewhite;
+}
+
+ul.prep-steps {
+    float: left;
+    width: 60%;
+    height: 200%;
+    transition: 2s;
+    margin-left:80px;
+}
+ul.prep-steps:hover{
+    color:antiquewhite;
+    text-shadow: -1px 2px 2px rgb(12, 12, 12);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+ul.prep-steps li.step {
+    list-style-type: none;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+#backtohome{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    color: rgb(195, 63, 63);
+    transition: 2s;
+}
+#backtohome:hover{
+    color:#d78e11;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.title{
+    transition:3s;
+}
+.title:hover{
+    letter-spacing: 10px;
+    color: #d78e11; 
+    cursor: pointer;
+}
+ul.ingredients{
+    float:left;
+}
+ul.ingredients li.steps{
+    list-style-type: none;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+
+.measurements{
+    font-weight: 600;
+    color:#d78e11;
+    transition: 2s;
+}
+.measurements:hover{
+    letter-spacing: 1px;
+    text-shadow: -1px 2px 2px rgb(12, 12, 12);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+    body{
+        background: url(measuring-flour.jpg);
+        color: rgb(127, 66, 8);
+    }
+    #backtohome{
+        color: rgb(127, 66, 8);
+    }
+    .measurements{
+        color: antiquewhite;
+    }
+    .recipies-info span {
+        color: antiquewhite;
+    }
+    button.btn-primary {
+        border: 2px solid rgb(250, 235, 215);
+        color: rgb(250, 235, 215);
+    }
+    ul.prep-steps {
+        margin-left:40px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background: url(siftingcopy.jpg);
+        color: rgb(30, 92, 126);
+    }
+    #backtohome{
+        color: rgb(30, 92, 126);
+    }
+    ul.prep-steps {
+        margin-left:0px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background: url(overmixingcopy.jpg);
+        color: rgb(153, 10, 101);
+    }
+    #backtohome{
+        color: rgb(153, 10, 101);
+    }
+    button.btn-primary {
+        border: 2px solid rgb(153, 10, 101);
+        color: rgb(153, 10, 101);
+    }
+    .measurements{
+        color: #d78e11;
+    }
+    .recipies-info span {
+        color: #d78e11;
+    }
+    ul.prep-steps:hover{
+        color:#d78e11;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background: url(temperature.jpg);
+        color: rgb(198, 84, 84);
+    }
+    #backtohome{
+        color: rgb(198, 84, 84);
+    }
+    button.btn-primary {
+        border: 2px solid rgb(198, 84, 84);
+        color: rgb(198, 84, 84);
+    }
+    .measurements{
+        color: antiquewhite;
+    }
+    .recipies-info span {
+        color: antiquewhite;
+    }
+    ul.prep-steps:hover{
+        color:antiquewhite;
+    }
+    #backtohome{
+        color: antiquewhite;
+    }
+    button.btn-primary:hover{
+        background-color: antiquewhite;
+        border-color: antiquewhite;
+        color: rgb(198, 84, 84);
+    }
+    #backtohome:hover{
+        color:rgb(198, 84, 84);
+    }
+    .title:hover{
+        color: antiquewhite;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background: url(soakedcake.jpg);
+        color: rgb(195, 1, 98);
+    }
+    #backtohome{
+        color: rgb(195, 1, 98);
+    }
+    #backtohome:hover{
+        color:antiquewhite;
+    }
+    button.btn-primary:hover{
+        background-color: antiquewhite;
+        border-color: antiquewhite;
+        color: rgb(195, 1, 98);
+    }
+    button.btn-primary {
+        border: 2px solid rgb(195, 1, 98);
+        color: rgb(195, 1, 98);
+    }
+}
