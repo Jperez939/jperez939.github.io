@@ -1,0 +1,136 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: antiquewhite;
+    background-image: linear-gradient(rgba(55, 35, 10, 0.46), rgba(55, 35, 10, 0.46)), url(Baking-fun-facts.png);
+    background-size: cover;
+    margin: 40px;
+}
+
+main h1 {
+    text-transform: uppercase;
+    float: right;
+    width: 60%;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.recipies-info p {
+    display: inline-block;
+    padding: 15px;
+}
+
+.recipies-info span {
+    color: rgb(243, 140, 174);
+    font-weight: 600;
+    transition: 2s;
+}
+.recipies-info span:hover {
+    letter-spacing: 1px;
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+    cursor: pointer;
+}
+
+button.btn-primary {
+    border: 2px solid rgb(250, 235, 215);
+    border-radius: 25px;
+    padding: 10px 15px;
+    background: none;
+    color: #faebd7;
+    width: 15%;
+    margin-left: 14px;
+    transition: 2s;
+}
+button.btn-primary:hover{
+    background-color: rgb(243, 140, 174);
+    border-color: rgb(243, 140, 174);
+    cursor: pointer;
+    letter-spacing: 1px;
+    color: antiquewhite;
+}
+
+ul.prep-steps {
+    float: left;
+    width: 60%;
+    height: 200%;
+    transition: 2s;
+    margin-left:80px;
+}
+ul.prep-steps:hover{
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+ul.prep-steps li.step {
+    list-style-type: none;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+#backtohome{
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    color: antiquewhite;
+    transition: 2s;
+}
+#backtohome:hover{
+    color:rgb(243, 140, 174);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.title{
+    transition:3s;
+}
+.title:hover{
+    letter-spacing: 10px;
+    color: rgb(243, 140, 174); 
+    cursor: pointer;
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+}
+ul.ingredients{
+    float:left;
+}
+ul.ingredients li.steps{
+    list-style-type: none;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+
+.measurements{
+    font-weight: 600;
+    color:rgb(243, 140, 174);
+    transition: 2s;
+}
+.measurements:hover{
+    letter-spacing: 1px;
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+    cursor: pointer;
+}
+
+.stripes div{
+    width: 70px;
+    height:10px;
+    margin: 5px;
+    position: fixed;
+    bottom:calc(3% - 20px / 2);
+    left:calc(50% - 20px / 2);
+    border-radius: 25px;
+}
+.s1{
+    background-color:antiquewhite;
+}
+.s1:hover{
+  background-color: rgb(243, 140, 174);
+}
+
+@media screen and (max-width:1200px){
+    ul.prep-steps {
+        margin-left:0px;
+    }
+}
