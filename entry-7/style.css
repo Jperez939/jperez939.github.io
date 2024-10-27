@@ -1,0 +1,167 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color: antiquewhite;
+    background-image: linear-gradient(rgba(55, 35, 10, 0.6), rgba(55, 35, 10, 0.6)), url(chocolatechip-cookies01.jpg);
+    background-size: cover;
+    margin: 40px;
+}
+
+main h1 {
+    text-transform: uppercase;
+    float: right;
+    width: 60%;
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.recipies-info p {
+    display: inline-block;
+    padding: 15px;
+}
+
+.recipies-info span {
+    color: rgb(119, 181, 226);
+    font-weight: 600;
+    transition: 2s;
+}
+.recipies-info span:hover {
+    letter-spacing: 1px;
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+}
+
+.btn-primary {
+    border: 2px solid rgb(119, 181, 226);
+    background-color: rgb(119, 181, 226);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: #faebd7;
+    width: 30%;
+    margin-left: 14px;
+    transition: 2s;
+    text-align: center;
+}
+.btn-primary:hover {
+    letter-spacing: 1px;
+}
+
+ul.prep-steps {
+    float: left;
+    width: 80%;
+    height: 200%;
+    transition: 2s;
+    margin-left:80px;
+}
+ul.prep-steps:hover{
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+}
+
+ul.prep-steps li.step {
+    list-style-type: none;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+#backtohome{
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    color: antiquewhite;
+    transition: 2s;
+    border: 2px solid rgb(119, 181, 226);
+    background-color: rgb(119, 181, 226);
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+#backtohome:hover{
+    color:rgb(119, 181, 226);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+}
+
+.title{
+    transition:3s;
+}
+.title:hover{
+    letter-spacing: 10px;
+    color: rgb(119, 181, 226); 
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+}
+ul.ingredients{
+    float:left;
+}
+ul.ingredients li.steps{
+    list-style-type: none;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+
+.measurements{
+    font-weight: 600;
+    color:rgb(119, 181, 226);
+    transition: 2s;
+}
+.measurements:hover{
+    letter-spacing: 1px;
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+}
+
+ul.notes{
+    float: left;
+    width: 100%;
+    height: 200%;
+    margin-left:0px;
+    transition: 2s;
+}
+ul.notes:hover{
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+}
+
+ul.notes li.step {
+    list-style-type: none;
+    font-size: 13px;
+    padding-top: 20px;
+    padding-right: 40px;
+    color:rgb(119, 181, 226);
+}
+
+
+@media screen and (max-width: 1400px) {
+    body{
+        background-image: linear-gradient(rgba(55, 35, 10, 0.6), rgba(55, 35, 10, 0.6)), url(cookie-closeup\ copy.jpg);
+    }
+    ul.prep-steps {
+        margin-left:40px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-image: linear-gradient(rgba(55, 35, 10, 0.6), rgba(55, 35, 10, 0.6)), url(cookies-stacked\ copy.jpg);
+    }
+    ul.prep-steps {
+        margin-left:0px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-image: linear-gradient(rgba(55, 35, 10, 0.6), rgba(55, 35, 10, 0.6)), url(cookie-dough-balls.jpg);
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-image: linear-gradient(rgba(55, 35, 10, 0.6), rgba(55, 35, 10, 0.6)), url(cookie-mixture.jpg);
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        background-image: linear-gradient(rgba(55, 35, 10, 0.6), rgba(55, 35, 10, 0.6)), url(cookie-ingredients.jpg);
+    }
+}
