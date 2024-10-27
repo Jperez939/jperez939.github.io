@@ -8,11 +8,9 @@ body {
 }
 
 main h1 {
-    text-transform: uppercase;
     float: right;
     width: 60%;
     font-size: 52px;
-    font-weight: bold;
 }
 
 .recipies-info p {
@@ -84,6 +82,10 @@ ul.prep-steps li.step {
 
 .title{
     transition:3s;
+    font-family: "Rubik Dirt", serif;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: 100;
 }
 .title:hover{
     letter-spacing: 10px;
