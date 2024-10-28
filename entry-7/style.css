@@ -43,6 +43,23 @@ main h1 {
     letter-spacing: 1px;
 }
 
+.btn-secondary{
+    border: 2px solid rgb(119, 181, 226);
+    background-color: rgb(119, 181, 226);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: #faebd7;
+    width: 30%;
+    margin-left: 14px;
+    transition: 2s;
+    text-align: center;
+    position: absolute;
+    bottom: -30px;
+}
+.btn-secondary:hover{
+    letter-spacing: 1px;
+}
+
 ul.prep-steps {
     float: left;
     width: 80%;
@@ -165,5 +182,8 @@ ul.notes li.step {
 @media screen and (max-width:600px){
     body{
         background-image: linear-gradient(rgba(55, 35, 10, 0.6), rgba(55, 35, 10, 0.6)), url(cookie-ingredients.jpg);
+    }
+    .btn-secondary{
+        bottom: -80px;
     }
 }
