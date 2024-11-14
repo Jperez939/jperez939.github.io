@@ -1,0 +1,195 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    background-image: linear-gradient(rgba(65, 41, 12, 0.6), rgba(65, 41, 12, 0.6)), url(blueberry-french-toast.jpg);
+    background-size: cover;
+    margin: 40px;
+}
+
+main h1 {
+    float: right;
+    width: 60%;
+    font-size: 52px;
+}
+
+.recipies-info p {
+    display: inline-block;
+    padding: 15px;
+}
+
+.recipies-info span {
+    color: rgb(177, 156, 217);
+    font-weight: 600;
+    transition: 2s;
+}
+.recipies-info span:hover {
+    letter-spacing: 1px;
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+}
+
+.btn-primary {
+    border: 2px solid rgb(177, 156, 217);
+    background-color: rgb(177, 156, 217);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: #faebd7;
+    width: 30%;
+    margin-left: 14px;
+    transition: 2s;
+    text-align: center;
+}
+.btn-primary:hover {
+    letter-spacing: 1px;
+}
+
+.btn-secondary{
+    border: 2px solid rgb(177, 156, 217);
+    background-color: rgb(177, 156, 217);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: #faebd7;
+    width: 30%;
+    margin-left: 14px;
+    transition: 2s;
+    text-align: center;
+    margin-top: 500px;
+}
+.btn-secondary:hover{
+    letter-spacing: 1px;
+}
+
+.btn-third{
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    color: antiquewhite;
+    transition: 2s;
+    border: 2px solid rgb(177, 156, 217);
+    background-color: rgb(177, 156, 217);
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+.btn-third:hover{
+    color:rgb(177, 156, 217);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+}
+
+
+ul.prep-steps {
+    float: left;
+    width: 80%;
+    height: 200%;
+    transition: 2s;
+    margin-left:80px;
+}
+ul.prep-steps:hover{
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+}
+
+ul.prep-steps li.step {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-right: 40px;
+    font-size: 15px;
+}
+
+#backtohome{
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    color: antiquewhite;
+    transition: 2s;
+    border: 2px solid rgb(177, 156, 217);
+    background-color: rgb(177, 156, 217);
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+#backtohome:hover{
+    color:rgb(177, 156, 217);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+}
+
+.title{
+    transition:3s;
+    font-family: "Rubik Dirt", serif;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: 100;
+}
+.title:hover{
+    letter-spacing: 10px;
+    color: rgb(177, 156, 217); 
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+}
+ul.ingredients{
+    float:left;
+}
+ul.ingredients li.steps{
+    list-style-type: none;
+    padding-top: 20px;
+    padding-right: 40px;
+    font-size: 15px;
+}
+
+.measurements{
+    font-weight: 600;
+    color:rgb(177, 156, 217);
+    transition: 2s;
+}
+.measurements:hover{
+    letter-spacing: 1px;
+    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+}
+
+.timer {
+    text-align: center;
+    color:rgb(177, 156, 217);
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    border: 2px solid rgb(177, 156, 217);
+    background-color: rgb(177, 156, 217);
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: antiquewhite;
+    transition: 2s;
+}
+
+button:hover {
+    color:rgb(177, 156, 217);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+}
+
+@media screen and (max-width: 1400px) {
+    ul.prep-steps {
+        margin-left:40px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    ul.prep-steps {
+        margin-left:0px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .btn-secondary{
+        bottom: 60px;
+    }
+}
