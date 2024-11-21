@@ -1,0 +1,223 @@
+#size {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
+    background-image: linear-gradient(rgba(65, 41, 12, 0.6), rgba(65, 41, 12, 0.6)), url(Orange-Bundt-Cake-10.jpg);
+    background-size: cover;
+    margin: 40px;
+}
+
+main h1 {
+    float: right;
+    width: 60%;
+    font-size: 52px;
+}
+
+.recipies-info p {
+    display: inline-block;
+    padding: 15px;
+}
+
+.recipies-info span {
+    color: rgb(255, 192, 103);
+    font-weight: 600;
+    transition: 2s;
+}
+.recipies-info span:hover {
+    letter-spacing: 1px;
+    text-shadow: -0.5px 1px 2px rgb(65, 41, 12);
+}
+
+.btn-primary {
+    border: 2px solid rgb(255, 102, 103);
+    background-color: rgb(255, 102, 103);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: #faebd7;
+    width: 30%;
+    margin-left: 14px;
+    transition: 2s;
+    text-align: center;
+}
+.btn-primary:hover {
+    letter-spacing: 1px;
+}
+
+.btn-secondary{
+    border: 2px solid rgb(255, 102, 103);
+    background-color: rgb(255, 102, 103);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: #faebd7;
+    width: 30%;
+    margin-left: 14px;
+    transition: 2s;
+    text-align: center;
+    margin-top: 500px;
+}
+.btn-secondary:hover{
+    letter-spacing: 1px;
+}
+
+.btn-third{
+    position: fixed;
+    top: 100px;
+    right: 20px;
+    color: antiquewhite;
+    transition: 2s;
+    border: 2px solid rgb(255, 102, 103);
+    background-color: rgb(255, 102, 103);
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+.btn-third:hover{
+    color:rgb(255, 192, 103);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+}
+
+
+ul.prep-steps {
+    float: left;
+    width: 80%;
+    height: 200%;
+    transition: 2s;
+    margin-left:80px;
+}
+ul.prep-steps:hover{
+    text-shadow: -0.5px 1px 2px rgb(65, 41, 12);
+}
+
+ul.prep-steps li.step {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+#backtohome{
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    color: antiquewhite;
+    transition: 2s;
+    border: 2px solid rgb(255, 102, 103);
+    background-color: rgb(255, 102, 103);
+    border-radius: 25px;
+    padding: 10px 15px;
+}
+#backtohome:hover{
+    color:rgb(255, 192, 103);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+}
+
+.title{
+    transition: 4s;
+    font-family: "Rubik Dirt", serif;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: 100;
+}
+.title:hover{
+    letter-spacing: 10px;
+    color: rgb(255, 192, 103); 
+    text-shadow: -0.5px 1px 2px rgb(65, 41, 12);
+    font-size: 42px;
+}
+ul.ingredients{
+    float:left;
+}
+ul.ingredients li.steps{
+    list-style-type: none;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.measurements{
+    font-weight: 600;
+    color:rgb(255, 192, 103);
+    transition: 2s;
+}
+.measurements:hover{
+    letter-spacing: 1px;
+    text-shadow: -0.5px 1px 2px rgb(65, 41, 12);
+}
+
+.timer {
+    text-align: center;
+    color:rgb(255, 192, 103);
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    border: 2px solid rgb(255, 102, 103);
+    background-color: rgb(255, 102, 103);
+    border-radius: 25px;
+    padding: 10px 20px;
+    color: antiquewhite;
+    transition: 2s;
+}
+
+button:hover {
+    color:rgb(255, 192, 103);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid antiquewhite;
+    background-color: antiquewhite;
+}
+
+#range-input {
+    accent-color: rgb(255, 102, 103);
+    position: fixed;
+    top: 175px;
+    right: 20px;
+}
+
+#range-input:hover {
+    accent-color: rgb(255, 192, 103);
+    position: fixed;
+}
+
+#rangetext {
+    position: fixed;
+    top: 155px;
+    right: 20px;
+    color:rgb(255, 102, 103);
+}
+
+@media screen and (max-width: 1400px) {
+    ul.prep-steps {
+        margin-left:40px;
+    }
+}
+
+@media screen and (max-width:1200px){
+    ul.prep-steps {
+        margin-left:0px;
+    }
+    body {
+        background-image: linear-gradient(rgba(65, 41, 12, 0.6), rgba(65, 41, 12, 0.6)), url(Orange-Bundt-Cake-3.jpg);
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .btn-secondary{
+        bottom: 60px;
+    }
+    body {
+        background-image: linear-gradient(rgba(65, 41, 12, 0.6), rgba(65, 41, 12, 0.6)), url(Orange-Bundt-Cake-9.jpg);
+    }
+}
