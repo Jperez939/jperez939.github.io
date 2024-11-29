@@ -22,19 +22,215 @@ h1:hover{
     color: antiquewhite;
 }
 
-.entries{
+.entry01{
     font-variant: small-caps;
-    font-size: 18px;
-    line-height: 1.7;
-    color: rgb(205, 115, 63);
+    font-size: 16px;
+    line-height: 3;
     transition:2s;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: rgb(221, 221, 221);
+    width: 30%;
+    text-align: center;
 }
-.entries:hover{
-    color: indianred;
+.entry01:hover{
     text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.129);
     letter-spacing: 1px;
     cursor: pointer;
-    font-size: 20px;
+    border: 2px solid rgb(221, 221, 221);
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
+.entry02{
+    font-variant: small-caps;
+    font-size: 16px;
+    line-height: 3;
+    transition:2s;
+    border: 2px solid indianred;
+    background-color: indianred;
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: antiquewhite;
+    width: 30%;
+    text-align: center;
+}
+.entry02:hover{
+    text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.129);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid purple;
+    background-color: purple;
+    color: lavender;
+}
+.entry03{
+    font-variant: small-caps;
+    font-size: 16px;
+    line-height: 3;
+    transition:2s;
+    border: 2px solid palevioletred;
+    background-color: palevioletred;
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: purple;
+    width: 30%;
+    text-align: center;
+}
+.entry03:hover{
+    text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.129);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid purple;
+    background-color: purple;
+    color: palevioletred;
+}
+.entry04{
+    font-variant: small-caps;
+    font-size: 16px;
+    line-height: 3;
+    transition:2s;
+    border: 2px solid #b5c640;
+    background-color: #b5c640;
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: white;
+    width: 30%;
+    text-align: center;
+}
+.entry04:hover{
+    text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.129);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid white;
+    background-color: white;
+    color: #b5c640;
+}
+.entry05{
+    font-variant: small-caps;
+    font-size: 16px;
+    line-height: 3;
+    transition:2s;
+    border: 2px solid #d78e11;
+    background-color: #d78e11;
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: antiquewhite;
+    width: 30%;
+    text-align: center;
+}
+.entry05:hover{
+    text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.129);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid rgb(195, 63, 63);
+    background-color: rgb(195, 63, 63);
+    color: #d78e11;
+}
+.entry06{
+    font-variant: small-caps;
+    font-size: 16px;
+    line-height: 3;
+    transition:2s;
+    border: 2px solid rgb(243, 140, 174);
+    background-color: rgb(243, 140, 174);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: antiquewhite;
+    width: 30%;
+    text-align: center;
+}
+.entry06:hover{
+    text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.129);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid rgb(104, 58, 82);
+    background-color: rgb(104, 58, 82);
+    color: rgb(243, 140, 174);
+}
+.entry07{
+    font-variant: small-caps;
+    font-size: 16px;
+    line-height: 3;
+    transition:2s;
+    border: 2px solid rgb(119, 181, 226);
+    background-color: rgb(119, 181, 226);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: antiquewhite;
+    width: 30%;
+    text-align: center;
+}
+.entry07:hover{
+    text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.129);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid rgb(58, 98, 104);
+    background-color: rgb(58, 98, 104);
+    color: rgb(119, 181, 226);
+}
+.entry08{
+    font-variant: small-caps;
+    font-size: 16px;
+    line-height: 3;
+    transition:2s;
+    border: 2px solid rgb(120, 200, 80);
+    background-color: rgb(120, 200, 80);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: antiquewhite;
+    width: 30%;
+    text-align: center;
+}
+.entry08:hover{
+    text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.129);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid rgb(58, 104, 66);
+    background-color: rgb(58, 104, 66);
+    color: rgb(120, 200, 80);
+}
+.entry09{
+    font-variant: small-caps;
+    font-size: 16px;
+    line-height: 3;
+    transition:2s;
+    border: 2px solid rgb(177, 156, 217);
+    background-color: rgb(177, 156, 217);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: antiquewhite;
+    width: 30%;
+    text-align: center;
+}
+.entry09:hover{
+    text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.129);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid rgb(79, 58, 104);
+    background-color: rgb(79, 58, 104);
+    color: rgb(177, 156, 217);
+}
+.entry10{
+    font-variant: small-caps;
+    font-size: 16px;
+    line-height: 3;
+    transition:2s;
+    border: 2px solid rgb(255, 102, 103);
+    background-color: rgb(255, 102, 103);
+    border-radius: 25px;
+    padding: 10px 15px;
+    color: antiquewhite;
+    width: 30%;
+    text-align: center;
+}
+.entry10:hover{
+    text-shadow: -1px 1px 2px rgba(128, 106, 80, 0.129);
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 2px solid rgb(255, 192, 103);
+    background-color: rgb(255, 192, 103);
+    color: rgb(255, 102, 103);
 }
 
 .hero-image {
@@ -53,9 +249,10 @@ h1:hover{
     transform: translate(-50%, -50%);
 }
 
+
 ul.mainsteps {
     float: left;
-    width: 60%;
+    width: 70%;
     height: 70%;
     transition: 2s;
 }
@@ -67,20 +264,37 @@ ul.mainsteps:hover{
 
 ul.mainsteps li.step {
     list-style-type: none;
-    font-size: 27px;
+    font-size: 26px;
     padding-top: 20px;
     padding-right: 115px;
-    margin-left: -10%;
+    margin-left: 20%;
 }
+
 
 ul.ingredients{
     float:left;
 }
 ul.ingredients li.steps{
     list-style-type: none;
-    padding-top: 10px;
-    padding-right: 400px;
-    margin-left: 31%;
-    width: 40%;
+    padding-top: 20px;
+    padding-right: 40px;
+    margin-left: 30%;
+    width: 110%;
 }
 
+@media screen and (max-width:1400px){
+    ul.mainsteps {
+        width: 60%;
+    }
+}
+@media screen and (max-width:800px){
+    ul.mainsteps {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:600px){
+    ul.mainsteps {
+        width: 90%;
+    }
+}

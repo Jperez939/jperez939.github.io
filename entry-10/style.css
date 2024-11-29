@@ -1,5 +1,5 @@
 #size {
-    font-size: 16px;
+    font-size: 17px;
 }
 
 body {
@@ -28,7 +28,7 @@ main h1 {
 }
 .recipies-info span:hover {
     letter-spacing: 1px;
-    text-shadow: -0.5px 1px 2px rgb(65, 41, 12);
+    text-shadow: -0.5px 1px 2px rgb(83, 53, 16);
 }
 
 .btn-primary {
@@ -56,7 +56,7 @@ main h1 {
     margin-left: 14px;
     transition: 2s;
     text-align: center;
-    margin-top: 500px;
+    margin-top: 470px;
 }
 .btn-secondary:hover{
     letter-spacing: 1px;
@@ -87,16 +87,19 @@ ul.prep-steps {
     width: 80%;
     height: 200%;
     transition: 2s;
-    margin-left:80px;
+    margin-left:120px;
+    background-color: rgba(255, 192, 103, 0.4);
+    padding: 10px 20px;
+    border-radius: 25px;
 }
 ul.prep-steps:hover{
-    text-shadow: -0.5px 1px 2px rgb(65, 41, 12);
+    text-shadow: -0.5px 1px 2px rgb(83, 53, 16);
 }
 
 ul.prep-steps li.step {
     list-style-type: none;
     padding-top: 20px;
-    padding-right: 40px;
+    padding-left: 10px;
 }
 
 #backtohome{
@@ -147,7 +150,7 @@ ul.ingredients li.steps{
 }
 .measurements:hover{
     letter-spacing: 1px;
-    text-shadow: -0.5px 1px 2px rgb(65, 41, 12);
+    text-shadow: -0.5px 1px 2px rgb(83, 53, 16);
 }
 
 .timer {
@@ -197,18 +200,47 @@ button:hover {
     color:rgb(255, 102, 103);
 }
 
+ul.notes{
+    float: left;
+    width: 100%;
+    height: 200%;
+    transition: 2s;
+    width: 90%;
+    margin-left:55px;
+    background-color: rgba(255, 102, 103, 0.5);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+ul.notes:hover{
+    text-shadow: -0.5px 1px 2px rgb(83, 53, 16);
+}
+
+ul.notes li.step {
+    list-style-type: none;
+    font-size: 17px;
+    padding-top: 20px;
+    padding-left: 10px;
+    color:antiquewhite;
+}
+
 @media screen and (max-width: 1400px) {
     ul.prep-steps {
-        margin-left:40px;
+        margin-left:90px;
+    }
+    ul.notes {
+        margin-left: 40px;
     }
 }
 
 @media screen and (max-width:1200px){
-    ul.prep-steps {
-        margin-left:0px;
-    }
     body {
         background-image: linear-gradient(rgba(65, 41, 12, 0.6), rgba(65, 41, 12, 0.6)), url(Orange-Bundt-Cake-3.jpg);
+    }
+    ul.prep-steps {
+        margin-left:50px;
+    }
+    ul.notes {
+        margin-left: 20px
     }
 }
 
@@ -219,5 +251,11 @@ button:hover {
     }
     body {
         background-image: linear-gradient(rgba(65, 41, 12, 0.6), rgba(65, 41, 12, 0.6)), url(Orange-Bundt-Cake-9.jpg);
+    }
+    ul.prep-steps {
+        margin-left:20px;
+    }
+    ul.notes {
+        margin-left: 5px;
     }
 }

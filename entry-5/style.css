@@ -2,7 +2,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
     color: rgb(195, 63, 63);
-    background: url(Cake.jpg);
+    background-image: linear-gradient(rgba(87, 55, 16, 0.3), rgba(87, 55, 16, 0.3)), url(Cake.jpg);
     background-size: cover;
     margin: 40px;
 }
@@ -60,7 +60,6 @@ ul.prep-steps {
 ul.prep-steps:hover{
     color:antiquewhite;
     text-shadow: -1px 2px 2px rgb(12, 12, 12);
-    letter-spacing: 1px;
     cursor: pointer;
 }
 
@@ -116,7 +115,7 @@ ul.ingredients li.steps{
 
 @media screen and (max-width: 1400px) {
     body{
-        background: url(measuring-flour.jpg);
+        background-image: linear-gradient(rgba(87, 55, 16, 0.3), rgba(87, 55, 16, 0.3)), url(measuring-flour.jpg);
         color: rgb(127, 66, 8);
     }
     #backtohome{
@@ -139,7 +138,7 @@ ul.ingredients li.steps{
 
 @media screen and (max-width:1200px){
     body{
-        background: url(siftingcopy.jpg);
+        background-image: linear-gradient(rgba(87, 55, 16, 0.3), rgba(87, 55, 16, 0.3)), url(siftingcopy.jpg);
         color: rgb(30, 92, 126);
     }
     #backtohome{
@@ -152,7 +151,7 @@ ul.ingredients li.steps{
 
 @media screen and (max-width:1000px){
     body{
-        background: url(overmixingcopy.jpg);
+        background-image: linear-gradient(rgba(87, 55, 16, 0.3), rgba(87, 55, 16, 0.3)), url(overmixingcopy.jpg);
         color: rgb(153, 10, 101);
     }
     #backtohome{
@@ -175,7 +174,7 @@ ul.ingredients li.steps{
 
 @media screen and (max-width:800px){
     body{
-        background: url(temperature.jpg);
+        background-image: linear-gradient(rgba(87, 55, 16, 0.3), rgba(87, 55, 16, 0.3)), url(temperature.jpg);
         color: rgb(198, 84, 84);
     }
     #backtohome{
@@ -211,7 +210,7 @@ ul.ingredients li.steps{
 }
 @media screen and (max-width:600px){
     body{
-        background: url(soakedcake.jpg);
+        background-image: linear-gradient(rgba(87, 55, 16, 0.3), rgba(87, 55, 16, 0.3)), url(soakedcake.jpg);
         color: rgb(195, 1, 98);
     }
     #backtohome{

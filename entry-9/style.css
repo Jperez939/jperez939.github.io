@@ -4,6 +4,7 @@ body {
     background-image: linear-gradient(rgba(65, 41, 12, 0.6), rgba(65, 41, 12, 0.6)), url(blueberry-french-toast.jpg);
     background-size: cover;
     margin: 40px;
+    font-size: 17px;
 }
 
 main h1 {
@@ -83,17 +84,20 @@ ul.prep-steps {
     width: 80%;
     height: 200%;
     transition: 2s;
-    margin-left:80px;
+    margin-left:120px;
+    background-color: rgba(79, 58, 104, 0.5);
+    padding: 10px 20px;
+    border-radius: 25px;
 }
 ul.prep-steps:hover{
-    text-shadow: -1px 2px 2px rgb(63, 55, 55);
+    text-shadow: -1px 1px 2px rgb(63, 55, 55);
 }
 
 ul.prep-steps li.step {
     list-style-type: none;
     padding-top: 20px;
-    padding-right: 40px;
-    font-size: 15px;
+    padding-left: 10px;
+    font-size: 17px;
 }
 
 #backtohome{
@@ -103,7 +107,7 @@ ul.prep-steps li.step {
     color: antiquewhite;
     transition: 2s;
     border: 2px solid rgb(177, 156, 217);
-    background-color: rgb(177, 156, 217);
+    background-color: rgb(177, 156, 217); 
     border-radius: 25px;
     padding: 10px 15px;
 }
@@ -134,7 +138,7 @@ ul.ingredients li.steps{
     list-style-type: none;
     padding-top: 20px;
     padding-right: 40px;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .measurements{
@@ -183,7 +187,7 @@ button:hover {
 
 @media screen and (max-width:1200px){
     ul.prep-steps {
-        margin-left:0px;
+        margin-left:20px;
     }
 }
 
